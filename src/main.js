@@ -3,7 +3,12 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+// import Buefy
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css' 
+
 export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
+  // add Buefy to Vue project with use global method
+  Vue.use(Buefy)
   Vue.component('Layout', DefaultLayout)
 }
