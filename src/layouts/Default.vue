@@ -11,21 +11,21 @@
             width="180px"
           />
         </template>
-        <template>
-          <b-navbar-item>
-            <g-link class="nav__link" to="/">Home</g-link>
+        <template #end>
+          <b-navbar-item tag="div">
+            <g-link class="link" to="/">Home</g-link>
           </b-navbar-item>
-          <b-navbar-item>
-            <g-link class="nav__link" to="/about/">About</g-link>
+          <b-navbar-item tag="div">
+            <g-link class="link" to="/about/">About</g-link>
           </b-navbar-item>
-          <b-navbar-item>
-            <g-link class="nav__link" to="/">ePD Team</g-link>
+          <b-navbar-item tag="div">
+            <g-link class="link" to="/">ePD Team</g-link>
           </b-navbar-item>
-          <b-navbar-item>
-            <g-link class="nav__link" to="/about/">Announcements</g-link>
+          <b-navbar-item tag="div">
+            <g-link class="link" to="/about/">Announcements</g-link>
           </b-navbar-item>
-          <b-navbar-item>
-            <g-link class="nav__link" to="/">Services</g-link>
+          <b-navbar-item tag="div">
+            <g-link class="link" to="/">Services</g-link>
           </b-navbar-item>
 
           <b-navbar-dropdown label="More">
