@@ -11,7 +11,7 @@
             width="180px"
           />
         </template>
-        <template #end>
+        <template>
           <b-navbar-item>
             <g-link class="nav__link" to="/">Home</g-link>
           </b-navbar-item>
