@@ -4,41 +4,10 @@
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
-      <b-navbar class="is-fixed-top p-5 navbar" :transparent="true">
-        <template #brand>
-          <g-image
-            alt="Lightweight UI components for Vue.js based on Bulma"
-            width="180px"
-          />
-        </template>
-        <template #end>
-          <b-navbar-item tag="div">
-            <g-link class="link" to="/">Home</g-link>
-          </b-navbar-item>
-          <b-navbar-item tag="div">
-            <g-link class="link" to="/about/">About</g-link>
-          </b-navbar-item>
-          <b-navbar-item tag="div">
-            <g-link class="link" to="/">ePD Team</g-link>
-          </b-navbar-item>
-          <b-navbar-item tag="div">
-            <g-link class="link" to="/about/">Announcements</g-link>
-          </b-navbar-item>
-          <b-navbar-item tag="div">
-            <g-link class="link" to="/">Services</g-link>
-          </b-navbar-item>
-
-          <b-navbar-dropdown label="More">
-            <b-navbar-item> Training Courses </b-navbar-item>
-            <b-navbar-item href="#"> Publications </b-navbar-item>
-          </b-navbar-dropdown>
-          <b-navbar-item tag="div">
-            <div class="buttons">
-              <a class="button is-primary"> Contact A Scientist </a>
-            </div>
-          </b-navbar-item>
-        </template>
-      </b-navbar>
+      <nav class="nav">
+        <g-link class="nav__link" to="/">Home</g-link>
+        <g-link class="nav__link" to="/about/">About</g-link>
+      </nav>
     </header>
     <slot />
   </div>

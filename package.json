@@ -9,5 +9,8 @@
   "dependencies": {
     "buefy": "^0.9.4",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^2.5.2"
   }
 }
